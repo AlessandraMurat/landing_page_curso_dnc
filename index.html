@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Escola DNC</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<!-- conteúdo principal -->
+<main>
+  <a href="https://www.escoladnc.com.br">
+    <img src="assets/images/logo_dnc.svg" id="logo" alt="logo Escola DNC" />
+  </a>
+  <h1 class="title">
+    Dê os primeiros passos da <br />sua carreira em Tecnologia
+  </h1>
+  <p id="texto-principal">
+    Inscreva-se no curso gratuito de Introdução à <br />
+    Tecnologia da DNC School e aprenda os principais <br />
+    fundamentos para construir experiências efetivas.
+  </p>
+</main>
+
+<!-- informações -->
+
+<div id="secao-informacoes">
+  <div class="conteudo-informacoes">
+    <img src="assets/images/icones/certificate.svg" alt="" />
+    <p>Certificado de conclusão</p>
+  </div>
+  <div class="conteudo-informacoes">
+    <img src="assets/images/icones/clock.svg" alt="" />
+    <p>4 horas de conteúdo</p>
+  </div>
+  <div class="conteudo-informacoes">
+    <img src="assets/images/icones/record.svg" alt="" />
+    <p>Aulas online gravadas</p>
+  </div>
+</div>
+
+<!-- Vídeo -->
+
+<div id="secao-video">
+  <iframe width="100%" height="350px" src="https://www.youtube.com/embed/ITxGkd9h4n4?si=bucMUuRDK63Are62"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <div>
+    <h2 class="titulo">Aprenda com especialistas e <br /> comece seu primeiro projeto</h2>
+    <p class="descricao-video">Conheça o processo de desenvolvimento e entenda como utilizar os principais métodos e
+      ferramentas da área para resolver problemas complexos.</p>
+    <p class="descricao-video">Conquiste seu certificado e desenvolva um projeto prático para aplicar seus
+      conhecimentos.</p>
+  </div>
+</div>
+<!-- Depoimentos -->
+
+<div id="secao-carrossel">
+  <h2 class="titulo titulo-carrossel">Mais de 500 alunos já iniciaram seus estudos</h2>
+
+  <div class="group-card">
+    <img id="seta-esquerda" onclick="mostrarCardEsquerda()" src="assets/images/icones/arrow-left.svg" alt="">
+    <div id="card-bruna" class="card">
+      <img src="assets/images/photo1.png" alt="aluno1" />
+      <div class="description-card">
+        <p>“O curso da DNC School foi o ponto de partida da minha transição de carreira. Hoje já consegui minha primeira
+          vaga na área!”</p>
+        <span>Bruna, desenvolvedora Front-End</span>
+      </div>
+
+    </div>
+    <div id="card-samantha" class="card">
+      <img src="assets/images/photo3.png" alt="aluno1" />
+      <div class="description-card">
+        <p>“O curso da foi a mudança que eu precisava para alcançar meus objetivos profissionais”</p>
+        <span>Samantha, desenvolvedora Front-End</span>
+      </div>
+
+    </div>
+    <div id="card-leonardo" class="card">
+      <img src="assets/images/photo2.png" alt="aluno1" />
+      <div class="description-card">
+        <p>“Gostei muito da metodologia e da plataforma da Escola DNC. Os materiais são todos muito bons”</p>
+        <span>Leonardo, desenvolvedor Back-End</span>
+      </div>
+
+    </div>
+
+    <img id="seta-direita" onclick="mostrarCardDireita()" src="assets/images/icones/arrow-right.svg" alt="">
+  </div>
+</div>
+
+<!-- Formulário -->
+
+<div id="formulario">
+  <h2 class="titulo titulo-formulario">Comece agora mesmo e dê o próximo passo da sua carreira</h2>
+  <form action="https://api.sheetmonkey.io/form/eC28dtg3ePqJVWVX6H1q4L" method="POST">
+    <input type="text" name="Nome" required placeholder="Nome">
+    <input type="email" name="Email" required placeholder="E-mail">
+    <input type="number" name="Telefone" required placeholder="Telefone">
+    <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+    <button type="submit">Acesse
+        a ementa grátis</button>
+  </form>
+</div>
+
+
+<script src="assets/script/script.js"></script>
+</body>
+
+</html>
